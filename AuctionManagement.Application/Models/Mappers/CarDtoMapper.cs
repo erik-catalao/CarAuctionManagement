@@ -55,7 +55,6 @@ namespace AuctionManagement.Application.Models.Mappers
                         Manufacturer = car.Manufacturer,
                         Year = car.Year,
                         StartingBid = car.StartingBid,
-                        CarType = car.CarType,
                         Model = car.Model,
                         NumberOfDoors = car.NumberOfDoors,
                         IsAvailable = car.IsAvailable
@@ -68,7 +67,6 @@ namespace AuctionManagement.Application.Models.Mappers
                         Manufacturer = car.Manufacturer,
                         Year = car.Year,
                         StartingBid = car.StartingBid,
-                        CarType = car.CarType,
                         Model = car.Model,
                         NumberOfDoors = car.NumberOfDoors,
                         IsAvailable = car.IsAvailable
@@ -81,7 +79,6 @@ namespace AuctionManagement.Application.Models.Mappers
                         Manufacturer = car.Manufacturer,
                         Year = car.Year,
                         StartingBid = car.StartingBid,
-                        CarType = car.CarType,
                         Model = car.Model,
                         NumberOfSeats = car.NumberOfSeats,
                         IsAvailable = car.IsAvailable
@@ -94,7 +91,6 @@ namespace AuctionManagement.Application.Models.Mappers
                         Manufacturer = car.Manufacturer,
                         Year = car.Year,
                         StartingBid = car.StartingBid,
-                        CarType = car.CarType,
                         Model = car.Model,
                         LoadCapacity = car.LoadCapacity,
                         IsAvailable = car.IsAvailable

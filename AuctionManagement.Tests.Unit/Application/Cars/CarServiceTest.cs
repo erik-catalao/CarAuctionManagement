@@ -34,7 +34,6 @@ namespace AuctionManagement.Tests.Unit.Application.Cars
                 Model = "Accord",
                 Year = 2012,
                 StartingBid = 25000.00m,
-                CarType = CarType.TRUCK,
                 LoadCapacity = 150,
                 IsAvailable = true
             };
@@ -58,7 +57,6 @@ namespace AuctionManagement.Tests.Unit.Application.Cars
                 Model = "Accord",
                 Year = 2012,
                 StartingBid = 25000.00m,
-                CarType = CarType.TRUCK,
                 LoadCapacity = 150
             };
             var request = new CreateCarRequest { Car = carDto };
@@ -77,8 +75,7 @@ namespace AuctionManagement.Tests.Unit.Application.Cars
                 Manufacturer = "Honda",
                 Model = "Accord",
                 Year = 2012,
-                StartingBid = 25000.00m,
-                CarType = CarType.TRUCK
+                StartingBid = 25000.00m
             };
 
             var request = new CreateCarRequest { Car = carDto };
@@ -105,7 +102,6 @@ namespace AuctionManagement.Tests.Unit.Application.Cars
                 Model = "Accord",
                 Year = 2012,
                 StartingBid = 10.00m,
-                CarType = CarType.HATCHBACK,
                 NumberOfDoors = 2,
                 IsAvailable = true
             };

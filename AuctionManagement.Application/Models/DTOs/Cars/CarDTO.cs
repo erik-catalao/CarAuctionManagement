@@ -21,6 +21,5 @@ namespace AuctionManagement.Application.Models.DTOs.Cars
         [JsonRequired]
         public required string VIN { get; set; }
         public bool? IsAvailable { get; set; }
-        public CarType CarType { get; set; }
     }
 }
